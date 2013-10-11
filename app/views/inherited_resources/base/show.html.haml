@@ -1,0 +1,11 @@
+%h1= resource_class.model_name.human + " (ID : #{resource.id})"
+
+%table
+  %tbody
+    - resource_class.column_names.each do |name|
+      %tr
+        %th= resource_class.human_attribute_name(name)
+        - if date_or_time? resource[name]
+          %td= l resource[name]
+        - else
+          %td= resource[name]

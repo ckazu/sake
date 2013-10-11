@@ -1,0 +1,11 @@
+= simple_form_for(resource) do |f|
+  = f.error_notification
+
+  - (resource_class.column_names - %w|id created_at updated_at|).each do |attribute|
+    - if relational? attribute
+      = f.association attribute.gsub(/_#{parent.class.primary_key}/, '').to_sym
+    - else
+      = f.input attribute.to_sym
+
+  = f.button :submit
+

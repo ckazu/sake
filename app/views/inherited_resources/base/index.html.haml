@@ -1,0 +1,22 @@
+%h1= resource_class.model_name.human
+
+- _columns = resource_class.column_names
+
+%table
+  %thead
+    %tr
+      - _columns.each do |name|
+        %th= resource_class.human_attribute_name(name)
+
+  %tbody
+    - collection.each do |res|
+      %tr
+        - _columns.each do |name|
+          - if linkable? name
+            %td= link_to res[name], res
+          - elsif date_or_time? res[name]
+            %td= l res[name]
+          - elsif relational? name
+            %td= link_to relational_title, parent
+          - else
+            %td= res[name]
