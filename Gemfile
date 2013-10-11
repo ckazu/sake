@@ -9,6 +9,7 @@ gem 'coffee-rails', '~> 4.0.0'
 # Libraries
 gem 'jquery-rails'
 gem 'underscore-rails'
+gem 'twitter-bootstrap-rails', branch: 'bootstrap3'
 
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
