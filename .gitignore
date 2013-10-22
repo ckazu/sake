@@ -20,3 +20,5 @@ vendor/
 
 # Guard file setting
 Guardfile
+
+/coverage

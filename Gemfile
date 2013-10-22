@@ -35,6 +35,7 @@ group :doc do
 end
 
 group :development, :test do
+  gem 'coveralls', require: false
   gem 'rspec-rails'
   gem 'factory_girl_rails'
 end
