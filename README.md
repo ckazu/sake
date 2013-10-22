@@ -24,6 +24,7 @@ Things you may want to cover:
 * ...
 
 
+[![Dependency Status](https://gemnasium.com/ckazu/sake.png)](https://gemnasium.com/ckazu/sake)
 [![Build Status](https://travis-ci.org/ckazu/sake.png?branch=master)](https://travis-ci.org/ckazu/sake)
 [![Coverage Status](https://coveralls.io/repos/ckazu/sake/badge.png)](https://coveralls.io/r/ckazu/sake)
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/ckazu/sake/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
