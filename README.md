@@ -1,4 +1,4 @@
-== README
+# README
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
@@ -24,9 +24,5 @@ Things you may want to cover:
 * ...
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
-
-
+[![Build Status](https://travis-ci.org/ckazu/sake.png?branch=master)](https://travis-ci.org/ckazu/sake)
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/ckazu/sake/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
