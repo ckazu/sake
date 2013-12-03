@@ -38,6 +38,7 @@ group :development, :test do
   gem 'coveralls', require: false
   gem 'rspec-rails'
   gem 'factory_girl_rails'
+  gem 'railroady'
 end
 
 # Use ActiveModel has_secure_password
